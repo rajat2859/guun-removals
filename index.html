@@ -4,26 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gunn Removals</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary mx-5">
-        <div class="container-fluid">
-          <!-- top container -->
-
+      <!-- top navbar -->
+      <nav class="navbar navbar-expand-xl bg-body-tertiary mx-5">
+        <div class="container custom-container">
           <a class="navbar-brand" href="#"
             ><img
               src="/assets/images/nav-main-logo.png"
@@ -76,53 +78,241 @@
         </div>
       </nav>
 
-      <!-- bottom container -->
-      <div class="bottom-nav text-white rounded-3">
-        <div class="row justify-content-end text-center">
-          <!-- 1 -->
-          <div class="col-md-3 align-self-center d-flex align-items-center">
-            <img src="/assets/images/map-nav.png" alt="" />
-            <div class="ps-3">
-              <h5 class="m-0">Location</h5>
-              <p class="m-0">82 Thames Street Pandora Napier</p>
+      <!-- bottom navbar -->
+
+      <div class="container custom-container bottom-nav">
+        <div class="text-white">
+          <div
+            class="d-flex flex-wrap justify-content-evenly gap-4 gap-md-5 px-3 px-md-0"
+          >
+            <!-- 1: Location -->
+            <div
+              class="d-flex bottom-nav-boxes align-items-center flex-column flex-sm-row text-center text-sm-start"
+            >
+              <img
+                src="/assets/images/map-nav.png"
+                alt="Location icon"
+                class="mb-2 mb-sm-0"
+              />
+              <div class="ps-0 ps-sm-3 text-center text-sm-start">
+                <h5 class="m-0">Location</h5>
+                <p class="m-0">82 Thames Street Pandora Napier</p>
+              </div>
             </div>
-          </div>
-          <!-- 2 -->
-          <div class="col-md-3 align-self-center d-flex align-items-center">
-            <img src="/assets/images/mail-nav.png" alt="" />
-            <div class="ps-3">
-              <h5 class="m-0">Send Email</h5>
-              <a class="m-0" href="mailto:gunnremovals@outlook.co.nz"
-                >gunnremovals@outlook.co.nz</a
-              >
+
+            <!-- 2: Email -->
+            <div
+              class="d-flex bottom-nav-boxes align-items-center flex-column flex-sm-row text-center text-sm-start"
+            >
+              <img
+                src="/assets/images/mail-nav.png"
+                alt="Email icon"
+                class="mb-2 mb-sm-0"
+              />
+              <div class="ps-0 ps-sm-3 text-center text-sm-start">
+                <h5 class="m-0">Send Email</h5>
+                <a class="m-0 d-block" href="mailto:gunnremovals@outlook.co.nz">
+                  gunnremovals@outlook.co.nz
+                </a>
+              </div>
             </div>
-            <!-- 3 -->
-          </div>
-          <div class="col-md-3 align-self-center d-flex align-items-center">
-            <img src="/assets/images/time-nav.png" alt="" />
-            <div class="ps-3">
-              <h5 class="m-0">Office Hrs.</h5>
-              <p class="m-0">Mon -Sun : 7:30 AM to 6:00 PM</p>
+
+            <!-- 3: Office Hours -->
+            <div
+              class="d-flex bottom-nav-boxes align-items-center flex-column flex-sm-row text-center text-sm-start"
+            >
+              <img
+                src="/assets/images/time-nav.png"
+                alt="Hours icon"
+                class="mb-2 mb-sm-0"
+              />
+              <div class="ps-0 ps-sm-3 text-center text-sm-start">
+                <h5 class="m-0">Office Hrs.</h5>
+                <p class="m-0">Mon - Sun : 7:30 AM to 6:00 PM</p>
+              </div>
             </div>
-          </div>
-          <!-- 4 -->
-          <div class="col-md-3 align-self-center d-flex align-items-center">
-            <img src="/assets/images/call-nav.png" alt="" />
-            <div class="ps-3">
-              <h5 class="m-0">Phone Num.</h5>
-              <a class="m-0" href="tel:027 668 3632">027 668 3632</a>
+
+            <!-- 4: Phone -->
+            <div
+              class="d-flex bottom-nav-boxes align-items-center flex-column flex-sm-row text-center text-sm-start"
+            >
+              <img
+                src="/assets/images/call-nav.png"
+                alt="Phone icon"
+                class="mb-2 mb-sm-0"
+              />
+              <div class="ps-0 ps-sm-3 text-center text-sm-start">
+                <h5 class="m-0">Phone Num.</h5>
+                <a class="m-0 d-block" href="tel:0276683632">027 668 3632</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- Banner -->
+      <section class="banner-bg">
+        <div class="container">
+          <div class="row padding-height">
+            <div class="col-lg-5 col-xl-6 overlay">
+              <div>
+                <h1 class="main-heading">
+                  The quality shines in <br />
+                  every move we make
+                </h1>
+                <p class="banner-text-type-1">
+                  At Gunn Removals, we turn moving hassles into smooth new
+                  beginnings. Our trusted team delivers excellence, care, and
+                  reliability whether you’re relocating across town or anywhere
+                  in New Zealand.
+                </p>
+                <p class="banner-text-type-2">
+                  Experience the difference—move with <br />
+                  Gunn Removals today.
+                </p>
+                <button class="btn btn-light rounded-pill p-3 mb-4 ms-2">
+                  Get a Free Quote
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Welcome Section (Video) -->
+      <section>
+        <div class="container">
+          <div class="row padding-welcome">
+            <!-- Welcome text -->
+            <div class="col-md-6">
+              <span class="welcome-top-text">Welcome Section (Video)</span>
+              <h2 class="welcome-heading">
+                Packing & Moving To Better Lives Since 1985
+              </h2>
+              <p class="welcome-text">
+                Gunn Removals combines decades of experience with family values.
+                Our mission: move your possessions safely, deliver smiles, and
+                minimize stress for every customer.
+              </p>
+              <ul class="list-unstyled welcome-list">
+                <li>✅ Quality & Protection</li>
+                <li>✅ 7-Day Service</li>
+                <li>✅ Reliable & Local</li>
+              </ul>
+              <button class="welcome-btn py-3 px-4">Connect with Us</button>
+            </div>
+            <!-- video -->
+            <div class="col-md-6 ps-5">
+              <a
+                href="https://www.youtube.com/watch?v=D0UnqGm_miA"
+                class="glightbox"
+                data-glightbox="type: video"
+              >
+                <img
+                  src="/assets/images/thumbnail.png"
+                  alt="Play Video"
+                  class="img-fluid welcome-video"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Residential Moves -->
+      <section class="bg-residential">
+        <div class="top-div position-absolute w-100">
+          <div class="container">
+            <div class="row res-top-row">
+              <div class="col">
+                <img
+                  src="/assets/images/residential-icon.png"
+                  class="residential-icon"
+                  alt="icon"
+                />
+                <h5 class="residential-headings">Residential Moves</h5>
+                <p class="residential-p">Effortless Home Relocations</p>
+              </div>
+              <div class="col">
+                <img
+                  src="/assets/images/residential-icon.png"
+                  class="residential-icon"
+                  alt="icon"
+                />
+                <h5 class="residential-headings">Estate Clearances</h5>
+                <p class="residential-p">Compassionate Property Clearances</p>
+              </div>
+              <div class="col">
+                <img
+                  src="/assets/images/residential-icon.png"
+                  class="residential-icon"
+                  alt="icon"
+                />
+                <h5 class="residential-headings">Intercity Moves</h5>
+                <p class="residential-p">Reliable Nationwide Service</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-div"></div>
+      </section>
+      <!-- success move -->
+      <section class="success-bg text-white">
+        <div class="container">
+          <div class="row text-center success-styling">
+            <div class="col">
+              <div class="circle-icon">
+                <img
+                  src="/assets/images/pallet .png"
+                  class="icon-size"
+                  alt=""
+                />
+              </div>
+              <div class="success-text">
+                <span class="text-size">4.6K</span>
+                <p class="pt-2">
+                  Successfully <br />
+                  completed moves
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="circle-icon">
+                <img src="/assets/images/office.png" class="icon-size" alt="" />
+              </div>
+              <div class="success-text">
+                <span class="text-size pb-1">129+</span>
+                <p class="pt-2">
+                  Service locations <br />
+                  across the country
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="circle-icon">
+                <img
+                  src="/assets/images/dependable .png"
+                  class="icon-size"
+                  alt=""
+                />
+              </div>
+              <div class="success-text">
+                <span class="text-size">1.8K</span>
+                <p class="pt-2">
+                  Trusted professional <br />
+                  team members
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <section class="bg-footer text-white">
         <div class="container">
           <div class="row footer-height">
             <!-- col-1 -->
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-8">
               <img
                 src="/assets/images/footer-logo.png"
                 class="footer-logo"
@@ -147,11 +337,13 @@
               </div>
             </div>
             <!-- col-2 -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-8">
               <div class="row align-items-center">
                 <!-- sub-col-1 -->
 
-                <div class="col-sm-4 ps-5 align-self-end footer-sub-col1">
+                <div
+                  class="col-sm-4 col-lg-4 col-md-4 ps-5 align-self-end footer-sub-col1"
+                >
                   <h6 class="pb-4"><strong>Discover</strong></h6>
                   <ul class="list-unstyled">
                     <li class="pb-2">Home</li>
@@ -164,7 +356,7 @@
                 <!-- sub-col-2 -->
 
                 <div class="col-sm-8 align-self-end footer-sub-col2">
-                  <h6><b>Contact us</b></h6>
+                  <h6 class="pb-3"><b>Contact us</b></h6>
                   <ul>
                     <li class="footer-sub-col2-li">
                       <img
@@ -199,7 +391,7 @@
               </div>
             </div>
             <!-- col-3 -->
-            <div class="col-lg-5 col-md-12 align-self-end ps-5">
+            <div class="col-lg-5 col-md-9 align-self-end ps-5">
               <img
                 src="/assets/images/footer-map.png"
                 class="footer-map"
@@ -219,5 +411,8 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"
   ></script>
+  <script>
+    const lightbox = GLightbox({ selector: ".glightbox" });
+  </script>
   <script src="/assets/js/script.js"></script>
 </html>
