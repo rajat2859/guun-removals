@@ -381,6 +381,7 @@ footer a {
 }
 .bg-residential {
   background-image: url(/assets/images/residential-bg.png);
+  background-size: cover;
 }
 .residerntial-icon {
   width: 40px;
@@ -400,6 +401,105 @@ footer a {
   font-weight: 500;
   line-height: normal;
 }
-.res-top-row {
-  background-color: #390c83;
+
+.top-div {
+  background-color: rgba(57, 12, 131, 0.6);
+  padding-top: 43px;
+  padding-bottom: 41px;
+}
+.custom-px-residential {
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+.res-para-box {
+  max-width: 315px;
+  height: 385px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  background-color: white;
+}
+.res-card {
+  display: flex;
+  align-items: center;
+}
+.residential-icon {
+  background-color: #792cbf;
+  padding: 15px;
+  border-radius: 8px;
+}
+.res-icon-text {
+  padding-left: 14px;
+}
+.wcu-top-text {
+  padding-top: 100px;
+  padding-bottom: 35px;
+  color: #792cbf;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wcu-mainheading {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 65px;
+}
+.wcu-main-img {
+  width: 505px;
+  height: 605px;
+}
+.col-heading {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.col-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  color: #818181;
+  max-width: 310px;
+  height: 80px;
+}
+.col-img-style {
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+.wcu-btn {
+  padding-top: 20px;
+}
+.wcu-icon {
+  background-color: #792cbf;
+  max-width: 85px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.wcu-box-left {
+  padding-right: 27px;
+}
+.wcu-box-right {
+  padding-left: 27px;
+}
+.padding-between-wcu {
+  padding-top: 116px;
+}
+.wcu-padding-bottom {
+  padding-bottom: 100px;
+}
+.custom-container {
+  max-width: 1500px; /* Caps at 1500px on large screens */
+  /* Full width on smaller screens */
+  padding-left: 15px; /* Optional: match Bootstrap's default padding */
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; /* Centers the container */
+}
+
+.col-3-style {
+  padding-left: 80px;
 }
