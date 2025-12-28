@@ -499,7 +499,99 @@ footer a {
   margin-left: auto;
   margin-right: auto; /* Centers the container */
 }
-
+.custom-container-work {
+  max-width: 1665px;
+  padding-left: 15px; /* Optional: match Bootstrap's default padding */
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .col-3-style {
   padding-left: 80px;
+}
+.triangle-right {
+  position: absolute;
+  right: -20px; /* how far the triangle sticks out */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #8b5cf6; /* same purple as the box */
+}
+.work-top-head {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #792cbf;
+}
+.work-main-head {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 60px;
+  padding-top: 22px;
+}
+.work-icon {
+  background-color: #4e19a6;
+  padding: 20px;
+  border-radius: 8px;
+}
+.work-text {
+  width: 230px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  color: #4914a1;
+  text-align: center;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+.work-box-styling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-style {
+  padding-top: 8px;
+  padding-bottom: 28px;
+}
+.work-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.border-work {
+  border-radius: 16px;
+  border: 1px dashed #792cbf;
+  width: 290px;
+}
+.border-work h5 {
+  padding-top: 40px;
+}
+.work-box-gap {
+  gap: 50px;
+}
+.test-top-head {
+  color: #edd9ff;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+.test-bg {
+  background-image: url(/assets/images/test-bg.png);
+  background-size: cover;
+}
+.test-main-head {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
 }
