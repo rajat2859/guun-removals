@@ -595,3 +595,59 @@ footer a {
   line-height: normal;
   color: #fff;
 }
+.test-cards {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  width: 405px;
+}
+.test-top-bubble {
+}
+.quote {
+  padding: 15px;
+}
+.quote-image1 {
+  background-color: rgba(121, 44, 191, 0.6);
+  border-radius: 50%;
+  padding: 15px;
+
+  position: absolute;
+  top: -36.05px;
+}
+.quote-image2 {
+  background-color: #792cbf;
+  border-radius: 50%;
+  margin: -2px;
+
+  /* position: absolute;
+  top: -42.05px; */
+}
+.test-stars {
+  margin-top: 50px;
+}
+.test-card-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  color: #818181;
+  padding-top: 10px;
+  text-align: start;
+  width: 315px;
+}
+.name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  color: #4e19a6;
+  padding-bottom: 40px;
+}
+.test-cust-img {
+  padding-top: 50px;
+}
+.test-slider {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
