@@ -113,12 +113,15 @@ html {
 .footer-map {
   width: 528px;
   height: 220px;
-  padding-left: 10px;
 }
 .footer-col1-text {
-  max-width: 340px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0.32px;
+  max-width: 340px;
+  padding-bottom: 20px;
 }
 .footer-col2-list {
   display: flex;
@@ -145,7 +148,7 @@ html {
   padding-top: 110px;
 }
 .footer-sub-col2 {
-  padding-top: 90px;
+  padding-top: 74px;
 }
 .footer-sub-col2 h6 {
   padding-bottom: 8px;
@@ -412,13 +415,17 @@ footer a {
   padding-bottom: 200px;
 }
 .res-para-box {
-  max-width: 315px;
-  height: 385px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
   background-color: white;
+  max-width: 352px;
+  border-radius: 15px;
+  padding: 25px 20px 25px 20px;
+}
+.res-para-box p {
+  padding-bottom: 35px;
 }
 .res-card {
   display: flex;
@@ -602,8 +609,7 @@ footer a {
   flex-direction: column;
   width: 405px;
 }
-.test-top-bubble {
-}
+
 .quote {
   padding: 15px;
 }
